@@ -1,0 +1,372 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>EcoSmart Retail</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
+      style='--select-button-svg: url(&apos;data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(94,120,141)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e&apos;); font-family: "Work Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f3f5] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#101518]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#101518] text-lg font-bold leading-tight tracking-[-0.015em]">EcoSmart Retail</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#101518] text-sm font-medium leading-normal" href="#">Dashboard</a>
+              <a class="text-[#101518] text-sm font-medium leading-normal" href="#">Reports</a>
+              <a class="text-[#101518] text-sm font-medium leading-normal" href="#">Inventory</a>
+              <a class="text-[#101518] text-sm font-medium leading-normal" href="#">Sustainability Score</a>
+            </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f3f5] text-[#101518] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#101518]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAT8Alyaj-dJUc1i8wvoWJg2-513HFe1eM1rjt852TdBIIsnvZfE1o3OM5Z_K_4LN3sv_z68dJv7Bx7V0dJv4RMGxxzIHUXlZMeEaNsM9WBv0toKhJGrnOqzh6izgX2zmlTGUnO2HDFdCU6OCQIjQM3kR22aPOyINbWVjlYXcjYLEK389C_xPoIpWhEJIJJd3nraTGIUvRZOy7ZoFjYh2WqwpInsqkUX0XKo9-rHsIsa0lAwXj1fKwunUU7n2ccjtGaunYd5sDfY-w");'
+            ></div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <h2 class="text-[#101518] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Filters</h2>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#101518] text-base font-medium leading-normal pb-2">Category</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#101518] focus:outline-0 focus:ring-0 border border-[#dae1e7] bg-white focus:border-[#dae1e7] h-14 bg-[image:--select-button-svg] placeholder:text-[#5e788d] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">All Categories</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#101518] text-base font-medium leading-normal pb-2">Condition</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#101518] focus:outline-0 focus:ring-0 border border-[#dae1e7] bg-white focus:border-[#dae1e7] h-14 bg-[image:--select-button-svg] placeholder:text-[#5e788d] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">All Conditions</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#101518] text-base font-medium leading-normal pb-2">Location</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#101518] focus:outline-0 focus:ring-0 border border-[#dae1e7] bg-white focus:border-[#dae1e7] h-14 bg-[image:--select-button-svg] placeholder:text-[#5e788d] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">All Locations</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#101518] text-base font-medium leading-normal pb-2">Date</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#101518] focus:outline-0 focus:ring-0 border border-[#dae1e7] bg-white focus:border-[#dae1e7] h-14 bg-[image:--select-button-svg] placeholder:text-[#5e788d] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Any Date</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <p class="text-[#5e788d] text-sm font-normal leading-normal pb-3 pt-1 px-4">Powered by AI for a Greener Future</p>
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#101518] tracking-light text-[32px] font-bold leading-tight min-w-72">Returned Items Dashboard</p>
+            </div>
+            <div class="flex flex-wrap gap-4 p-4">
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-lg p-6 bg-[#f0f3f5]">
+                <p class="text-[#101518] text-base font-medium leading-normal">Total Returns Today</p>
+                <p class="text-[#101518] tracking-light text-2xl font-bold leading-tight">125</p>
+                <p class="text-[#078838] text-base font-medium leading-normal">+10%</p>
+              </div>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-lg p-6 bg-[#f0f3f5]">
+                <p class="text-[#101518] text-base font-medium leading-normal">Recycled %</p>
+                <p class="text-[#101518] tracking-light text-2xl font-bold leading-tight">60%</p>
+                <p class="text-[#078838] text-base font-medium leading-normal">+5%</p>
+              </div>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-lg p-6 bg-[#f0f3f5]">
+                <p class="text-[#101518] text-base font-medium leading-normal">Repaired %</p>
+                <p class="text-[#101518] tracking-light text-2xl font-bold leading-tight">25%</p>
+                <p class="text-[#078838] text-base font-medium leading-normal">+3%</p>
+              </div>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-lg p-6 bg-[#f0f3f5]">
+                <p class="text-[#101518] text-base font-medium leading-normal">Estimated Waste Saved (kg)</p>
+                <p class="text-[#101518] tracking-light text-2xl font-bold leading-tight">500</p>
+                <p class="text-[#078838] text-base font-medium leading-normal">+20%</p>
+              </div>
+            </div>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-lg border border-[#dae1e7] bg-white">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-white">
+                      <th class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-56 px-4 py-3 text-left text-[#101518] w-14 text-sm font-medium leading-normal">Product Image</th>
+                      <th class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-176 px-4 py-3 text-left text-[#101518] w-[400px] text-sm font-medium leading-normal">Name</th>
+                      <th class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-296 px-4 py-3 text-left text-[#101518] w-[400px] text-sm font-medium leading-normal">
+                        Category
+                      </th>
+                      <th class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-416 px-4 py-3 text-left text-[#101518] w-60 text-sm font-medium leading-normal">Condition</th>
+                      <th class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-536 px-4 py-3 text-left text-[#101518] w-[400px] text-sm font-medium leading-normal">
+                        Location
+                      </th>
+                      <th class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-656 px-4 py-3 text-left text-[#101518] w-60 text-sm font-medium leading-normal">
+                        Suggested Action
+                      </th>
+                      <th class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-776 px-4 py-3 text-left text-[#101518] w-60 text-[#5e788d] text-sm font-medium leading-normal">
+                        Confirm
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#dae1e7]">
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-56 h-[72px] px-4 py-2 w-14 text-sm font-normal leading-normal">
+                        <div
+                          class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10"
+                          style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBseEiddNpzrdzlt3y0laNLehU18saaX7VB4lmELoCqzodbH3HNTfwCMO5YI_TsfOt-njnnGjiXWkUeotnrV5YCYIUyTS7HKyPVrAm1vw2oWbPmafyaY9cVmsrKDEFeYRfHYNS_swYseteJpbuTXsHxTbpihp2d_tqYad4ayzc5OQo51lVjmMUMG_DQQShZQLpMGOmJK9joIwPDE8GgEpCWz9m6z_4xjIh9xhLlbW5SpXvMDxsJKah41TzOs_9QYPUT9QIsWvPVFVM");'
+                        ></div>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-176 h-[72px] px-4 py-2 w-[400px] text-[#101518] text-sm font-normal leading-normal">
+                        Blue Cotton Shirt
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-296 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">Apparel</td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-416 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Good</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-536 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">
+                        Warehouse A
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-656 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Reuse</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-776 h-[72px] px-4 py-2 w-60 text-[#5e788d] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Confirm
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dae1e7]">
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-56 h-[72px] px-4 py-2 w-14 text-sm font-normal leading-normal">
+                        <div
+                          class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10"
+                          style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD97IiWFP1uB5L6BZTUQ0ECVmFtN81_G6aoRM-hdRvGQrcCeYUdVrTgnfDjnAc7gV3U1pzJ_ry7dlqHoSnGnj-4LstRsqcvLYihvr2zqvdulnzwTjqLHyDBZIbNAUPyf5PRFJRHdsei_LU_owpV17G6TAF-RWNe5ypDdQJdASkr0AXVsrEjKO2ffzdKE4kzAtSjbWBYj1JCsECeROHKrbFG9yyiS8tBCwGCJRnt4jACdeXqIgtrqdy09OD63xSWgLhS6xZ3-_R0zQk");'
+                        ></div>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-176 h-[72px] px-4 py-2 w-[400px] text-[#101518] text-sm font-normal leading-normal">
+                        Red Running Shoes
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-296 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">Footwear</td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-416 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Fair</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-536 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">
+                        Warehouse B
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-656 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Repair</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-776 h-[72px] px-4 py-2 w-60 text-[#5e788d] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Confirm
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dae1e7]">
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-56 h-[72px] px-4 py-2 w-14 text-sm font-normal leading-normal">
+                        <div
+                          class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10"
+                          style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBe91EphIIgDz8SQ1bqGiD0X9KTDv3JymKFHU-5zCTBjDjTupxG3cpXs_pCQh7ae_zaQwPJsBgoz3Mao5FRHo2pkChF6TJHdNCOTghjtYay8kKX4JnkavuWbu9AawZX9i8ilPvtuOe7mMTrH21cdFkmP5sO38wbU232hpANiT5SlskpiMv9dzPbhB6jy_rsMWXuXPoY-pIbVj4DW8kw6D6Ptjxln5kqdg9nroa1KV9gMPihBUei8oHSC9Do32-mhZ2adXmrp9CIhgk");'
+                        ></div>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-176 h-[72px] px-4 py-2 w-[400px] text-[#101518] text-sm font-normal leading-normal">
+                        Silver Laptop
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-296 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">
+                        Electronics
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-416 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Damaged</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-536 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">
+                        Warehouse C
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-656 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Recycle</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-776 h-[72px] px-4 py-2 w-60 text-[#5e788d] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Confirm
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dae1e7]">
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-56 h-[72px] px-4 py-2 w-14 text-sm font-normal leading-normal">
+                        <div
+                          class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10"
+                          style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGP5YXJQqHfDfcLBAUsaXHD3LP18ADJF3s6TTyvd_mnTaonfMpyV30-aHUY8Y7QIIT-AvjtBSSO8V27OxzZ2sGQaqTvm6mM-Iw4E5N1Kp5ZLn9o_z5FFr8SfQnV50o6L3TVdTmSSoU0AqBjyBINnDKqMudquCgPEa5txUFWarBDEtPEXpS1_y_FVa6OE6vSTGC0uXtOwZVq4a6DBR-acFEwpPPEzznqmsDZi5U7Z-fCHc-PWoRORSkNJ3CEuvn6FpiTW64A-g_Mu0");'
+                        ></div>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-176 h-[72px] px-4 py-2 w-[400px] text-[#101518] text-sm font-normal leading-normal">
+                        Wooden Dining Chair
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-296 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">
+                        Furniture
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-416 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Excellent</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-536 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">
+                        Warehouse A
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-656 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Resell</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-776 h-[72px] px-4 py-2 w-60 text-[#5e788d] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Confirm
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dae1e7]">
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-56 h-[72px] px-4 py-2 w-14 text-sm font-normal leading-normal">
+                        <div
+                          class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10"
+                          style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDumk-vMubJzIM9uoz_b2V8pXPj5yXdX90CQMl9K5_gPJYEMZw85aV7c__qCbYugX_y8FShumXAVzWk4iIP_7FwALBu6OwyakQqalUJst6HY19nDW5hq5Aq9rvO8NRP4VBEWWYjfzizIeKtdecEyV_jonFresSLphAn8jMayorjKq1J0GYa8scLJ34vLhb5E3yYutMDkulwIdu_xtbBW7Jk7xBK_999s5wThnTBHt22xYK6mvUblUY1JZnzlMvoK6-DaexcI1qFJKs");'
+                        ></div>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-176 h-[72px] px-4 py-2 w-[400px] text-[#101518] text-sm font-normal leading-normal">
+                        Glass Water Bottle
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-296 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">
+                        Home Goods
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-416 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">New</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-536 h-[72px] px-4 py-2 w-[400px] text-[#5e788d] text-sm font-normal leading-normal">
+                        Warehouse B
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-656 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f0f3f5] text-[#101518] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Reuse</span>
+                        </button>
+                      </td>
+                      <td class="table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-776 h-[72px] px-4 py-2 w-60 text-[#5e788d] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Confirm
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:56px){.table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-56{display: none;}}
+                @container(max-width:176px){.table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-176{display: none;}}
+                @container(max-width:296px){.table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-296{display: none;}}
+                @container(max-width:416px){.table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-416{display: none;}}
+                @container(max-width:536px){.table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-536{display: none;}}
+                @container(max-width:656px){.table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-656{display: none;}}
+                @container(max-width:776px){.table-198eab8a-c5d0-4f24-8432-d0fd0d9883f8-column-776{display: none;}}
+              </style>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#0070cc] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Assign Action to Selected</span>
+              </button>
+            </div>
+            <h2 class="text-[#101518] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Action Breakdown Over Time</h2>
+            <div class="flex flex-wrap gap-4 px-4 py-6">
+              <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-lg border border-[#dae1e7] p-6">
+                <p class="text-[#101518] text-base font-medium leading-normal">Action Breakdown</p>
+                <p class="text-[#101518] tracking-light text-[32px] font-bold leading-tight truncate">100%</p>
+                <div class="flex gap-1">
+                  <p class="text-[#5e788d] text-base font-normal leading-normal">Last 30 Days</p>
+                  <p class="text-[#078838] text-base font-medium leading-normal">+5%</p>
+                </div>
+                <div class="grid min-h-[180px] grid-flow-col gap-6 grid-rows-[1fr_auto] items-end justify-items-center px-3">
+                  <div class="border-[#5e788d] bg-[#f0f3f5] border-t-2 w-full" style="height: 80%;"></div>
+                  <p class="text-[#5e788d] text-[13px] font-bold leading-normal tracking-[0.015em]">Reuse</p>
+                  <div class="border-[#5e788d] bg-[#f0f3f5] border-t-2 w-full" style="height: 30%;"></div>
+                  <p class="text-[#5e788d] text-[13px] font-bold leading-normal tracking-[0.015em]">Repair</p>
+                  <div class="border-[#5e788d] bg-[#f0f3f5] border-t-2 w-full" style="height: 90%;"></div>
+                  <p class="text-[#5e788d] text-[13px] font-bold leading-normal tracking-[0.015em]">Recycle</p>
+                  <div class="border-[#5e788d] bg-[#f0f3f5] border-t-2 w-full" style="height: 20%;"></div>
+                  <p class="text-[#5e788d] text-[13px] font-bold leading-normal tracking-[0.015em]">Resell</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
